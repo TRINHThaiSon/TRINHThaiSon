@@ -1,0 +1,95 @@
+body {
+    width: 1110px;
+}
+nav {
+    background-color: black;
+    height: 25px;
+    padding: 15px 50px ;
+    margin: 4px 0 4px 0;
+}
+a{
+    color: #FFFFFF;
+}
+footer{
+    background-color: black;
+    height: 25px;
+    padding: 15px 50px ;
+    margin: 4px 0 4px 0;
+}
+.pageheader{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+    width: 250px;
+    margin-left: 30px;
+    }
+#texthead{
+    font-size: 30px;
+    margin-left: 220px;
+    position: absolute;
+    top: 25px;
+      
+  }
+    
+.sectionbody{
+    display: inline-block;
+    
+}
+.box{
+    display: inline-block;
+    width: 790px;
+    height: 450px;
+}
+ .box2{
+    display: inline-block;
+    width: 790px;
+    height: 620px;
+ }
+ .box3{
+    display: inline-block;
+    width: 780px;
+    height: 450px;
+ }
+#sidebar{
+    position: absolute;
+    top: 350px;
+    left: 798px;
+    padding-left: 10px;
+    margin: 4px 1px;
+    width: 310px;
+    height:448px;
+    background-color: rgb(190, 188, 188);
+}
+#sidebar2{
+    position: absolute;
+    top: 350px;
+    left: 798px;
+    padding-left: 10px;
+    margin: 4px 1px;
+    width: 310px;
+    height:618px;
+    background-color: rgb(190, 188, 188);
+}
+#sidebar3{
+    position: absolute;
+    top: 350px;
+    left: 798px;
+    padding-left: 10px;
+    margin: 4px 1px;
+    width: 310px;
+    height:503px;
+    background-color: rgb(190, 188, 188);
+}
+
+
+
+@media screen and (max-width: 768px) 
+{ 
+    p
+    { 
+        font-size :25px; 
+    } 
+}     
+
+    

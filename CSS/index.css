@@ -1,0 +1,16 @@
+.parent {
+    border: 5px black solid;
+    display: inline-block;
+   }
+   .box {
+    display: inline-block;
+    background: rgb(113,113,133);
+    width: 200px;
+    height:100px;
+   }
+   #two {
+     background: #74CC42;
+     width: 100px;
+     
+   }
+   

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/index16.css">
+</head>
+<body>
+          
+    <form action="destination.php" method="POST" id="formulaire_contact">
+        
+        <legend><h1>Vos coordonnées</h1></legend>
+        <p style="color: red;"> * Ces zones sont obligatoires pour envoyer le formulaire.</p>
+        <label for="Société">Société :      </label><input type="text" name="nom" id="nom" onchange="verif1()"> *<br><br>
+        <label for="prénom">Personne à contacter :</label><input type="text" name="prénom" id="prénom" ><br><br><br>
+        <label for="adress">Adresse de l'entreprise :<textarea name="adresse1" rows="4" cols="25" id="entreprise_adresse"></textarea> </label>            
+        <label for="Code">Code postal* :</label><input type="text" name="code" id="Code" required title="Entrez votre code postal"><br>
+        <label for="Adresse">Adresse :</label><input type="text" name="adresse" id="Adresse" required title="Entrez votre adresse"><br>
+        <label for="Ville">Ville :</label><input type="text" name="ville" id="Ville" required title="Entrez votre ville"><br>
+        <label for="Email">Email* :</label><input type="email" name="email" id="Email" value="dave.loper@afpa.fr">
+      
+        <legend>Votre demande</legend>
+        <label for="sujet">Sujet* :</label>
+        <select id="sujet" size="1">
+          <option value="">Veuillez séléctionner un sujet</option>
+          <option value="Mes commandes">Mes commandes</option>
+          <option value="Questions sur un produit">Question sur un produit</option>
+          <option value="Réclamation">Réclamation</option>
+          <option value="Autres">Autres</option>
+        </select><br>
+        <label for="question">Votre question* :
+                  <textarea name="Votre question" rows="3" cols="20" id="question"></textarea>
+        </label>
+      
+      <input type="checkbox" name="accept" value="*J'accepte le traitement informatique de ce formulaire">*J'accepte le traitement informatique de ce formulaire<br>
+      <input type="submit" value="Envoyer">
+      <input type="reset" value="Annuler">
+    </form>
+    <script src="js/js16.js"></script>
+  </body>
+</html>
